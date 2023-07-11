@@ -55,13 +55,18 @@ minecraft(at the time of writing this 1.20.1), then click the green "Install" bu
 
 Step 4: On the left side of your screen there will be multiple buttons/tabs, click into 
 the "Plugins" tab, this is where you will install all of your plugins/add-ons for the 
-server. There is a search bar where you will search for plugins. 
+server. There is a search bar where you will search for plugins: 
 
- First, search "ChatFilter" and install "ChatFilter - Chat, Signs, Books and Anvils"
- Second, search "Clearlagg" and install "Clearlagg"
- Third, search "Coreprotect" and install "Coreprotect"
- Fourth, search "SimpleTpa" and install "Simple Tpa"
- Fifth, search "WorldEdit" and install "WorldEdit for bukkit"
- Last, search "Worldguard" and install "Worldguard"
+ . First, search "ChatFilter" and install "ChatFilter - Chat, Signs, Books and Anvils"
+ . Second, search "Clearlagg" and install "Clearlagg"
+ . Third, search "Coreprotect" and install "Coreprotect"
+ . Fourth, search "SimpleTpa" and install "Simple Tpa"
+ . Fifth, search "WorldEdit" and install "WorldEdit for bukkit"
+ . Last, search "Worldguard" and install "Worldguard"
 
-Step 5: 
+Step 5: Go back to the main server panel and click the green "Start" button to boot your 
+server. You should log onto the server using the provided ip address found on the server 
+panel. Once in the server, from the console, run the command "op {username here}", so for 
+a username of weasalcrafter the command would be "op weasalcrafter". This command gives 
+administrator privelidges to the user and allows for further configuration within the server 
+itself.
