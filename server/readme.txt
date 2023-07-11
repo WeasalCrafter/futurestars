@@ -40,8 +40,10 @@ Step 1: go ahead to www.aternos.org and create a free account, this website is f
 constant ads being presented; however it is HIGHLY reccomended, but not neccesary, to purchase 
 a dedicated server from a service like https://apexminecrafthosting.com.
 
-**IMPORTANT**
-**the guide that follows will be go along with the free Aternos.org website**
++------------------IMPORTANT-----------------+
+| **the guide that follows goes along with** |
+|   **the free Aternos.org website**         |
++--------------------------------------------+
 
 Step 2: You should be prompted with a screen with a button, "Create Server", click this, and 
 you will be prompted with another screen confirming the creation, click "create", to continue.
