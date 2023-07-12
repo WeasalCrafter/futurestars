@@ -78,20 +78,25 @@ a username of weasalcrafter the command would be "op weasalcrafter". This comman
 administrator privelidges to the user and allows for further configuration within the server itself.
 
 some useful flags(rules) that can be set for the world:
-/region flag __global__ tnt deny #disables tnt blasts
-/region flag __global__ creeper-explosion deny #disables creeper explosions
-/region flag __global__ other-explosion deny #disables any types of explosions
-/region flag __global__ lighter deny #disables flint n steals
-/region flag __global__ pvp deny #disables any type of player to player combat
+  . /region flag __global__ tnt deny #disables tnt blasts
+  . /region flag __global__ creeper-explosion deny #disables creeper explosions
+  . /region flag __global__ other-explosion deny #disables any types of explosions
+  . /region flag __global__ lighter deny #disables flint n steals
+  . /region flag __global__ pvp deny #disables any type of player to player combat
 
-usage: /cf blacklist add word {any word}
-ex: /cf blacklist add word shit
-google a list of english swear words and add common ones
+the chatfilter for blocking any profanities or language you would like:
+  . usage: /cf blacklist add word {any word}
+  . ex: /cf blacklist add word shit
+    - google a list of english swear words and add common ones
 
-/co i
-/co rollback r:{radius} t:{time}
+the "time machine" that rolls back certain chunks of land to points of time:
+  . /co rollback r:{radius} t:{time}
 
-users can send teleport requests to one another by running
-/tpa {username of other person}
-and the request can be accepted or denied with
-/tpaccept or /tpdeny
+the inspector can be toggled from this commmand, this allows you to see history 
+of each block/chest(watch a video for a more detailed description):
+  . /co i
+
+users can send teleport requests to one another by running:
+  . /tpa {username of other person}
+and the request can be accepted or denied with:
+  . /tpaccept or /tpdeny
