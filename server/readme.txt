@@ -40,7 +40,11 @@ Current plugins listed in this package:
  - Worldguard
      source: https://dev.bukkit.org/projects/worldguard
      docs: https://worldguard.enginehub.org/en/latest/
+
+-----------------------------------------------------------------------------------------------    
+CREATING THE SERVER
 -----------------------------------------------------------------------------------------------                              
+
 Step 1: go ahead to www.aternos.org and create a free account, this website is free due to 
 constant ads being presented; however it is HIGHLY reccomended, but not neccesary, to purchase 
 a dedicated server from a service like https://apexminecrafthosting.com.
@@ -76,6 +80,10 @@ cick yes. You should log onto the server using the provided ip address found on 
 Step 6: Once in the server, from the console, run the command "op {username here}", so for 
 a username of weasalcrafter the command would be "op weasalcrafter". This command gives 
 administrator privelidges to the user and allows for further configuration within the server itself.
+
+-----------------------------------------------------------------------------------------------   
+CONFIGURING THE SERVER
+-----------------------------------------------------------------------------------------------                              
 
 some useful flags(rules) that can be set for the world:
   . /region flag __global__ tnt deny #disables tnt blasts
