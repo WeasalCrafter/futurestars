@@ -5,6 +5,13 @@
  | |  | |_| | |_| |_| | | |  __/  ____) | || (_| | |  \__ \
  |_|   \__,_|\__|\__,_|_|  \___| |_____/ \__\__,_|_|  |___/
 
++------------------IMPORTANT----------------------------------------------------+
+|                                                                               |
+| Read this entire file in order to completely setup your camp mincraft server. |
+|                                                                               |
++-------------------------------------------------------------------------------+
+
+-----------------------------------------------------------------------------------------------
 Read this entire file in order to completely setup your camp mincraft server.
 -----------------------------------------------------------------------------------------------                              
 This pack includes features such as:
@@ -65,8 +72,28 @@ server. There is a search bar where you will search for plugins:
  . Last, search "Worldguard" and install "Worldguard"
 
 Step 5: Go back to the main server panel and click the green "Start" button to boot your 
-server. You should log onto the server using the provided ip address found on the server 
-panel. Once in the server, from the console, run the command "op {username here}", so for 
+server. You will be prompted to "accept the minecraft EULA(end user license agreement)", 
+cick yes. You should log onto the server using the provided ip address found on the server panel. 
+
+Step 6: Once in the server, from the console, run the command "op {username here}", so for 
 a username of weasalcrafter the command would be "op weasalcrafter". This command gives 
-administrator privelidges to the user and allows for further configuration within the server 
-itself.
+administrator privelidges to the user and allows for further configuration within the server itself.
+
+some useful flags(rules) that can be set for the world:
+/region flag __global__ tnt deny #disables tnt blasts
+/region flag __global__ creeper-explosion deny #disables creeper explosions
+/region flag __global__ other-explosion deny #disables any types of explosions
+/region flag __global__ lighter deny #disables flint n steals
+/region flag __global__ pvp deny #disables any type of player to player combat
+
+usage: /cf blacklist add word {any word}
+ex: /cf blacklist add word shit
+google a list of english swear words and add common ones
+
+/co i
+/co rollback r:{radius} t:{time}
+
+users can send teleport requests to one another by running
+/tpa {username of other person}
+and the request can be accepted or denied with
+/tpaccept or /tpdeny
